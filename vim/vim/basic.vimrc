@@ -147,13 +147,6 @@ nmap <silent><Leader>ew :call ToggleWrap()<CR>
 syntax enable                  " enable the syntax highlight
 set background=dark            " set a dark background
 set t_Co=256                   " 256 colors for the terminal
-if has('gui_running')
-    colorscheme molokai
-else
-    colorscheme molokai256
-"   exec ':so ' $HOME."/.vim/molokai256.vim"
-endif
-
 " }}}
 
 " Resize the divisions if the Vim window size changes {{{
